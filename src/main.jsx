@@ -11,6 +11,7 @@ import Home from './components/Home/Home';
 import Listed_Books from './components/Listed Books/Listed_Books';
 import PagesToRead from './components/PagesToRead/PagesToRead';
 import MostPopular from './components/MostPopular/MostPopular';
+import BookDetails from './components/BookDetails/BookDetails';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path:'/mostPopular',
         element: <MostPopular></MostPopular>,
+      },
+      {
+        path:'/book/:bookId',
+        element:<BookDetails></BookDetails>
       }
     ]
 

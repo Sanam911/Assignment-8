@@ -4,9 +4,7 @@ import Header from "../Header/Header";
 
 
 const Root = () => {
-    const handleListPage = () =>{
-
-    }
+    
     return (
         <div>
             <Header></Header>
