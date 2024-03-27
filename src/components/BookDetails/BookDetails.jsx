@@ -12,6 +12,10 @@ const BookDetails = () => {
 
     const handleRead =()=>{
         toast('Successfully Read');
+    };
+
+    const handleWishlist = () => {
+        toast('Successfully added to wishlist');
     }
     return (
         <div className="m-10">
@@ -62,7 +66,7 @@ const BookDetails = () => {
                     </div>
                     <div className="card-actions justify-start">
                         <button onClick={handleRead} className="btn border-gray-200">Read</button>
-                        <button className="btn bg-[#50B1C9] text-white">Wishlist</button>
+                        <button onClick={handleWishlist} className="btn bg-[#50B1C9] text-white">Wishlist</button>
                     </div>
                     <ToastContainer />
                 </div>
