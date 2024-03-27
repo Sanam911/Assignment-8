@@ -27,7 +27,7 @@ const Listed_Books = () => {
             
             <ListedHeader></ListedHeader>
             <h3>Listed Books: {listedBooks.length}</h3>
-            <div>
+            <div className= "m-4 gap-12 p-4">
                 {
                     listedBooks.map(book => <ListedBooksCard key={book.bookId} book={book}></ListedBooksCard>)
                 }
