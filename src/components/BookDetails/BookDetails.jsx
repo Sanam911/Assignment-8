@@ -12,7 +12,7 @@ const BookDetails = () => {
     console.log(book);
 
     const handleRead =()=>{
-        saveBooks(bookId);
+        saveBooks(bookIdInt);
         toast('Successfully Read');
     };
 
