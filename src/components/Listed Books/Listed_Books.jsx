@@ -1,9 +1,10 @@
+import ListedHeader from "../ListedHeader/ListedHeader";
 
 
 const Listed_Books = () => {
     return (
         <div>
-            <h3>listed books</h3>
+            <ListedHeader></ListedHeader>
         </div>
     );
 };
