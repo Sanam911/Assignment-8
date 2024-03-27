@@ -54,7 +54,7 @@ const ListedBooksCard = ({ book }) => {
 
                         <button className='btn text-[#FFAC33] bg-[#FFAC3326] p-2 rounded-full'>Rating: {rating}</button>
 
-                        <Link to="/src/components/BookDetails">
+                        <Link to={`/book/${bookId}`}>
                             <button className='btn text-white bg-[#23BE0A] p-2 rounded-full'>View Details</button>
                         </Link>
 
