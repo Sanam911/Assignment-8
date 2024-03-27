@@ -1,4 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const BookDetails = () => {
@@ -7,6 +9,10 @@ const BookDetails = () => {
     const bookIdInt = parseInt(bookId);
     const book = books.find(book => book.bookId === bookIdInt);
     console.log(book);
+
+    const handleRead =()=>{
+        toast('Successfully Read');
+    }
     return (
         <div className="m-10">
 
@@ -55,11 +61,13 @@ const BookDetails = () => {
 
                     </div>
                     <div className="card-actions justify-start">
-                        <button className="btn border-gray-200">Read</button>
+                        <button onClick={handleRead} className="btn border-gray-200">Read</button>
                         <button className="btn bg-[#50B1C9] text-white">Wishlist</button>
                     </div>
+                    <ToastContainer />
                 </div>
             </div>
+          
         </div>
     );
 };
