@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 
 const ListedBooksCard = ({ book }) => {
     const { bookId, bookName, image, author, category, tags, totalPages, rating, publisher, yearOfPublishing } = book;
+    
     return (
         <div>
             <div className="card lg:card-side bg-base-100 shadow-xl ">
@@ -64,7 +65,7 @@ const ListedBooksCard = ({ book }) => {
         </div>
     );
 };
-ListedBooksCard.prpTypes = {
-    book: PropTypes.object
+ ListedBooksCard.prpTypes = {
+    book:PropTypes.object
 }
 export default ListedBooksCard;

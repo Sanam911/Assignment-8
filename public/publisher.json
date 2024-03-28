@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "publicationName": "HarperCollins Publishers",
+      "address": "195 Broadway, New York, NY 10007, United States",
+      "description": "HarperCollins Publishers is one of the world's largest publishing companies and a subsidiary of News Corp. With a rich history dating back to 1817, HarperCollins publishes a wide range of fiction, non-fiction, and children's books.",
+      "imageURL": "https://i.ibb.co/vX5VpZK/man1.jpg"
+    },
+    {
+      "id": 2,
+      "publicationName": "Penguin Random House",
+      "address": "1745 Broadway, New York, NY 10019, United States",
+      "description": "Penguin Random House is an international publishing company formed from the merger of Penguin Books and Random House. It publishes fiction and non-fiction books across various genres and is known for its diverse range of authors.",
+      "imageURL": "https://i.ibb.co/1sPpg3d/man2.jpg"
+    },
+    {
+      "id": 3,
+      "publicationName": "Simon & Schuster",
+      "address": "1230 Avenue of the Americas, New York, NY 10020, United States",
+      "description": "Simon & Schuster, founded in 1924, is a major American publishing company. It publishes a wide array of books including fiction, non-fiction, and children's books, catering to a broad audience.",
+      "imageURL": "https://i.ibb.co/94QcRB0/woman1.jpg"
+    },
+    {
+      "id": 4,
+      "publicationName": "Macmillan Publishers",
+      "address": "120 Broadway, New York, NY 10271, United States",
+      "description": "Macmillan Publishers, founded in 1843, is a global trade publishing company. It publishes a wide range of books under various imprints, including fiction, non-fiction, and academic works.",
+      "imageURL": "https://i.ibb.co/5TmBkDp/woman2.jpg"
+    },
+    {
+      "id": 5,
+      "publicationName": "Hachette Book Group",
+      "address": "1290 Avenue of the Americas, New York, NY 10104, United States",
+      "description": "Hachette Book Group is a leading trade publisher in the United States. It publishes books across various genres, including fiction, non-fiction, and children's books, through its numerous imprints.",
+      "imageURL": "https://i.ibb.co/27FwW0c/man3.jpg"
+    },
+    {
+      "id": 6,
+      "publicationName": "HarperCollins UK",
+      "address": "1 London Bridge Street, London SE1 9GF, United Kingdom",
+      "description": "HarperCollins UK is the British publishing division of HarperCollins Publishers. It publishes a wide range of books, including fiction, non-fiction, and children's literature, catering to readers in the UK and beyond.",
+      "imageURL": "https://i.ibb.co/DYtj7zZ/woman3.jpg"
+    }
+  ]
+  

@@ -4,12 +4,15 @@ import 'react-toastify/dist/ReactToastify.css';
 import { saveBooks } from "../../utitity/localstorage";
 
 
+
 const BookDetails = () => {
     const books = useLoaderData();
     const { bookId } = useParams();
     const bookIdInt = parseInt(bookId);
     const book = books.find(book => book.bookId === bookIdInt);
     console.log(book);
+
+    
 
     const handleRead =()=>{
         saveBooks(bookIdInt);

@@ -20,7 +20,7 @@ const Listed_Books = () => {
         setListedBooks(booksListed);
         // console.log(books, storedBookIds, booksListed);
     }
-   },[])
+   },[books])
 
     return (
         <div>
@@ -28,7 +28,7 @@ const Listed_Books = () => {
             <ListedHeader></ListedHeader>
             <h3>Listed Books: {listedBooks.length}</h3>
             <div className= "m-4 gap-12 p-4">
-                {
+                { listedBooks &&
                     listedBooks.map(book => <ListedBooksCard key={book.bookId} book={book}></ListedBooksCard>)
                 }
             </div>
